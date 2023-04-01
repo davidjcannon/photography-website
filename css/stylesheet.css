@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+.legend {
+  display: inline;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  line-height: normal;
+  color: #000000;
+  border: 0;
+  border-bottom: none;
+}
+
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 45px;
+    font-family: 'ABeeZee', sans-serif;
+	transition: all .3s ease-in-out;
+}
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand:hover {
+    color: #7F7F7F
+}
+
+.nav-link {
+    color: white;
+    font-size: 45px;
+    font-family: 'ABeeZee', sans-serif;
+	transition: all .3s ease-in-out;
+}
+.nav-link:hover {
+    color: #7F7F7F
+}
+
+.subtitle {
+	color: white;
+    font-size: 45px;
+    font-family: 'ABeeZee', sans-serif;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.p {
+	color: white;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.col-xl-3 {
+	display: flex;
+	min-width: 400px;
+}
+
+@media (max-width: 1267px) {
+	.cards-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+	.col-xl-3 {
+		min-width: 450px;
+	}
+}
+
+.card-img-top {
+	padding-top: 20px;
+}
+
+.hover:hover {
+	transform: translate3d(0px, -15px, 0px);
+	transition: all .3s ease-in-out;
+}
+
+.card {
+	text-align: center;
+	border-radius: 25px;
+	background-color: white;
+	box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,0.15);
+	font-size: 34px;
+	transition: all .3s ease-in-out;
+	margin-bottom: 35px;
+	min-height: 600px;
+	max-height: 650px;
+}
+
+.card-title {
+	font-size: 40px;
+}
+
+.prisoner-card {
+	color: #B14000;
+	background-image: linear-gradient(#201E1E, #2C0F06);
+}
+
+.ghost-card {
+	color: #2D005A;
+	background-image: linear-gradient(#201E1E, #150723);
+}
+
+.beggining-card {
+	color: #720000;
+	background-image: linear-gradient(#201E1E, #220202);
+}
+
+.social-container {
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.socialbuttons {
+	width: 1200px;
+	height: 200px;
+	border-radius: 50px;
+	margin-bottom: 2%;
+	top: 125px;
+	color: white;
+	font-size: 80px;
+    font-family: 'ABeeZee', sans-serif;
+	transition: all 1.0s ease-in-out;
+}
+
+.instagram-button {
+	background-image: linear-gradient(#4664CA, #EC4A64);
+}
+
+.twitch-button {
+	background-image: linear-gradient(#5F00D9, #37007D);
+}
+
+.posts-container {
+	margin-top: 3%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.posts {
+	width: 1400px;
+	height: 350px;
+	margin-bottom: 24px;
+	background-color: white;
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(#201E1E, #151414);
+	color: white;
+	transition: all 1.0s ease-in-out;
+}
+
+.post-title {
+    font-size: 50px;
+}
+
+.post-image {
+	height: 325px;
+	border-radius: 25px;
+	padding-left: 10px;
+}
+
+.post-text {
+	display: flex;
+	flex-direction: column;
+    font-family: 'ABeeZee', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.post1 {
+    font-size: 30px;
+}
+
+.post2 {
+    font-size: 20px;
+}
+
+@media (max-width: 1450px) {
+	.posts {
+	width: 900px;
+	}
+	.post-title {
+    font-size: 40px;
+}
+	.post1 {
+    font-size: 22px;
+}
+	.post2 {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 942px) {
+	.posts {
+	width: 450px;
+		height: 100%;
+	flex-direction: column;
+	}
+	.post-image {
+	height: 430px;
+		padding-top: 10px;
+	padding-left: 0px;
+	}
+	.post-title {
+    font-size: 40px;
+		text-align: center;
+}
+	.post-text {
+		text-align: center;
+	}
+	.post1 {
+    font-size: 20px;
+}
+	.post2 {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1260px) {
+	.socialbuttons {
+	width: 800px;
+	}
+}
+
+@media (max-width: 888px) {
+	.socialbuttons {
+	width: 460px;
+	}
+}
+
+@media (max-width: 490px) {
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand {
+	font-size: 30px;
+	}
+	.cards-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+	.col-xl-3 {
+		min-width: 375px;
+	}
+.subtitle {
+	font-size: 30px;
+	}
+	.posts {
+	width: 350px;
+		height: 100%;
+	flex-direction: column;
+	}
+	.post-image {
+	height: 330px;
+		padding-top: 10px;
+	padding-left: 0px;
+	}
+	.post-title {
+    font-size: 35px;
+		text-align: center;
+}
+	.post-text {
+		text-align: center;
+	}
+	.post1 {
+    font-size: 18px;
+}
+	.post2 {
+    font-size: 16px;
+}
+	.socialbuttons {
+	width: 360px;
+		height: 125px;
+	font-size: 60px;
+	}
+.nav-link {
+    font-size: 30px;
+	}
+}
